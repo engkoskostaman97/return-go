@@ -8,6 +8,6 @@ func getHello() (string, string) {
 }
 
 func main() {
-	name, lastName := getHello()
-	fmt.Println(name, lastName)
+	name, _ := getHello()
+	fmt.Println(name)
 }
